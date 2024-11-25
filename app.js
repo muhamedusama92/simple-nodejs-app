@@ -1,7 +1,7 @@
 const http = require('http');
 
 const hostname = '0.0.0.0';  // to allow access from outside the container
-const port = 3200;
+const port = 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
